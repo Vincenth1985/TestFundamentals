@@ -6,7 +6,10 @@ import entities.animal_entities.Herbivore;
 import entities.animal_entities.Omnivore;
 import entities.plant_entities.Plant;
 
+import java.util.Comparator;
 import java.util.List;
+import java.util.stream.IntStream;
+import java.util.stream.Stream;
 
 public class ForestNotebook {
 
@@ -46,32 +49,71 @@ public class ForestNotebook {
     }
 
     public int getPlantCount() {
-        return plantCount;
+
+        return plantCount = Stream.of(plants).mapToInt(Plant -> plants.size()).sum();
+
     }
 
     public int getAnimalCount() {
-        return animalCount;
+        return animalCount = Stream.of(animals).mapToInt(Animal -> animals.size()).sum();
+
     }
 
     public void addAnimal(Animal animal) {
 
+        for (Animal values : animals) {
+            if (values.getName().equalsIgnoreCase(animal.getName())) {
+                break;
+            } else animals.add(animal);
+        }
+
+        if (animal instanceof Carnivore) {
+            carnivores.add(( Carnivore ) animal);
+        } else if (animal instanceof Herbivore) {
+            herbivores.add(( Herbivore ) animal);
+        } else if (animal instanceof Omnivore) {
+            omnivores.add(( Omnivore ) animal);
+        }
     }
 
-    public void addPlant(Plant plant){
+
+    public void addPlant(Plant plant) {
+        for (Plant values : plants) {
+            if (values.getName().equalsIgnoreCase(plant.getName())) {
+                break;
+            } else {
+                plants.add(plant);
+
+            }
+        }
 
     }
 
-    public void printNotebook(){
+
+    public void printNotebook() {
+
+        System.out.println("List of Animals");
+        System.out.println("-".repeat(40));
+        Stream.of(animals).forEach(System.out::println);
+        System.out.println("\nList of Plants");
+        System.out.println("-".repeat(40));
+        Stream.of(plants).forEach(System.out::println);
 
     }
 
-    public void sortAnimalsByName(){
+    public void sortAnimalsByName() {
+
+        animals.sort(Comparator.comparing(animal -> animal.getName()));
 
     }
+
+    public void sortPlantsByName() {
+        plants.sort(Comparator.comparing(plant -> plant.getName()));
+
+
+    }
+
     
-    public void sortPlantsByName(){
-
-    }
 
 
 }
