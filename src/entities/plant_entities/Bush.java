@@ -32,7 +32,7 @@ public class Bush extends Plant{
 
     @Override
     public String toString() {
-        return "Bush{" +
+        return "\nBush{" +
                 "fruit='" + fruit + '\'' +
                 ", leafType=" + leafType +
                 ", name='" + name + '\'' +

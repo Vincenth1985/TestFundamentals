@@ -2,11 +2,12 @@ package entities.animal_entities;
 
 import entities.plant_entities.Plant;
 
+import java.util.LinkedHashSet;
 import java.util.Set;
 
 public class Herbivore extends Animal {
 
-    Set<Plant> plantDiet;
+    Set<Plant> plantDiet = new LinkedHashSet<>();
 
     public Herbivore(String name) {
         super(name);
@@ -34,7 +35,7 @@ public class Herbivore extends Animal {
 
     @Override
     public String toString() {
-        return "Herbivore{" +
+        return "\nHerbivore{" +
                 "plantDiet=" + plantDiet +
                 ", name='" + name + '\'' +
                 ", weight=" + weight +

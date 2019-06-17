@@ -23,7 +23,7 @@ public class Weed extends Plant {
 
     @Override
     public String toString() {
-        return "Weed{" +
+        return "\nWeed{" +
                 "area=" + area +
                 ", name='" + name + '\'' +
                 ", height=" + height +

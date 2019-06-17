@@ -41,7 +41,7 @@ public class Omnivore extends Animal {
 
     @Override
     public String toString() {
-        return "Omnivore{" +
+        return "\nOmnivore{" +
                 "plantDiet=" + plantDiet +
                 ", maxFoodSize=" + maxFoodSize +
                 ", name='" + name + '\'' +

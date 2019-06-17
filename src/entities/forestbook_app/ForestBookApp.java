@@ -7,6 +7,8 @@ import entities.animal_entities.Omnivore;
 import entities.plant_entities.*;
 import entities.services.ForestNotebook;
 
+import java.util.stream.Stream;
+
 public class ForestBookApp {
 
     public static void main(String[] args) {
@@ -44,7 +46,7 @@ public class ForestBookApp {
         Omnivore eagle = new Omnivore("Eagle", 4, 0.5, 10);
 
         forestNotebook.addAnimal(lion);
-        forestNotebook.addAnimal(wolf);
+        forestNotebook.addAnimal(lion);
         forestNotebook.addAnimal(crocodile);
         forestNotebook.addAnimal(cow);
         forestNotebook.addAnimal(horse);
@@ -54,6 +56,29 @@ public class ForestBookApp {
         forestNotebook.addAnimal(eagle);
 
 
+        System.out.println("Count van Animals en Plants");
+        System.out.println("-".repeat(40));
+        System.out.println(forestNotebook.getAnimalCount());
+        System.out.println(forestNotebook.getPlantCount());
+
+        System.out.println("\nList of Animals and Plants not sorted");
+        System.out.println("-".repeat(40));
+        forestNotebook.printNotebook();
+
+        System.out.println("\nList of Animals");
+        System.out.println("-".repeat(40));
+        Stream.of(forestNotebook.getCarnivores()).forEach(System.out::println);
+        Stream.of(forestNotebook.getHerbivores()).forEach(System.out::println);
+        Stream.of(forestNotebook.getOmnivores()).forEach(System.out::println);
+
+
+        //Sorting by name.
+        forestNotebook.sortAnimalsByName();
+        forestNotebook.sortPlantsByName();
+
+        System.out.println("\nList of Animals and Plants sorted");
+        System.out.println("-".repeat(40));
+        forestNotebook.printNotebook();
 
 
     }

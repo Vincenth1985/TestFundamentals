@@ -22,7 +22,7 @@ public class Carnivore extends Animal {
 
     @Override
     public String toString() {
-        return "Carnivore{" +
+        return "\nCarnivore " +
                 "maxFoodSize=" + maxFoodSize +
                 ", name='" + name + '\'' +
                 ", weight=" + weight +

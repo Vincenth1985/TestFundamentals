@@ -6,20 +6,19 @@ import entities.animal_entities.Herbivore;
 import entities.animal_entities.Omnivore;
 import entities.plant_entities.Plant;
 
-import java.util.Comparator;
-import java.util.List;
-import java.util.stream.IntStream;
+import java.util.*;
+import java.util.stream.Collectors;
 import java.util.stream.Stream;
 
 public class ForestNotebook {
 
-    private List<Carnivore> carnivores;
-    private List<Omnivore> omnivores;
-    private List<Herbivore> herbivores;
+    private List<Carnivore> carnivores = new LinkedList<>();
+    private List<Omnivore> omnivores = new LinkedList<>();
+    private List<Herbivore> herbivores = new LinkedList<>();
     private int plantCount;
     private int animalCount;
-    private List<Animal> animals;
-    private List<Plant> plants;
+    private List<Animal> animals = new LinkedList<>();
+    private List<Plant> plants = new LinkedList<>();
 
     public ForestNotebook() {
     }
@@ -61,11 +60,8 @@ public class ForestNotebook {
 
     public void addAnimal(Animal animal) {
 
-        for (Animal values : animals) {
-            if (values.getName().equalsIgnoreCase(animal.getName())) {
-                break;
-            } else animals.add(animal);
-        }
+        animals.add(animal);
+        this.animals = animals.stream().distinct().collect(Collectors.toList());
 
         if (animal instanceof Carnivore) {
             carnivores.add(( Carnivore ) animal);
@@ -78,22 +74,14 @@ public class ForestNotebook {
 
 
     public void addPlant(Plant plant) {
-        for (Plant values : plants) {
-            if (values.getName().equalsIgnoreCase(plant.getName())) {
-                break;
-            } else {
-                plants.add(plant);
-            }
-        }
+        plants.add(plant);
+        plants.add(plant);
+        this.plants = plants.stream().distinct().collect(Collectors.toList());
     }
 
     public void printNotebook() {
-
-        System.out.println("List of Animals");
-        System.out.println("-".repeat(40));
         Stream.of(animals).forEach(System.out::println);
-        System.out.println("\nList of Plants");
-        System.out.println("-".repeat(40));
+        System.out.println();
         Stream.of(plants).forEach(System.out::println);
 
     }
