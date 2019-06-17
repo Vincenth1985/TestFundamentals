@@ -14,126 +14,72 @@
   <component name="FileEditorManager">
     <leaf>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/entities/App.java">
+        <entry file="file://$PROJECT_DIR$/src/entities/animal_entities/Animal.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="45">
-              <caret line="3" selection-start-line="3" selection-end-line="3" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/entities/plant_entities/Plant.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="4" column="5" selection-start-line="4" selection-start-column="5" selection-end-line="4" selection-end-column="5" />
+            <state relative-caret-position="210">
+              <caret line="14" column="58" selection-start-line="14" selection-start-column="58" selection-end-line="14" selection-end-column="58" />
               <folding>
-                <element signature="e#140#141#0" expanded="true" />
-                <element signature="e#172#173#0" expanded="true" />
-                <element signature="e#313#314#0" expanded="true" />
-                <element signature="e#340#341#0" expanded="true" />
-                <element signature="e#373#374#0" expanded="true" />
-                <element signature="e#402#403#0" expanded="true" />
-                <element signature="e#446#447#0" expanded="true" />
-                <element signature="e#482#483#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/entities/plant_entities/Bush.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="495">
-              <caret line="33" column="18" selection-start-line="33" selection-start-column="18" selection-end-line="33" selection-end-column="18" />
-              <folding>
-                <element signature="e#156#157#0" expanded="true" />
-                <element signature="e#183#184#0" expanded="true" />
-                <element signature="e#265#266#0" expanded="true" />
-                <element signature="e#297#298#0" expanded="true" />
-                <element signature="e#325#326#0" expanded="true" />
-                <element signature="e#367#368#0" expanded="true" />
-                <element signature="e#401#402#0" expanded="true" />
-                <element signature="e#438#439#0" expanded="true" />
-                <element signature="e#469#470#0" expanded="true" />
-                <element signature="e#519#520#0" expanded="true" />
-                <element signature="e#559#560#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/entities/plant_entities/Weed.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="30">
-              <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-              <folding>
-                <element signature="e#129#130#0" expanded="true" />
-                <element signature="e#156#157#0" expanded="true" />
-                <element signature="e#143#144#0" expanded="true" />
-                <element signature="e#178#179#0" expanded="true" />
-                <element signature="e#269#270#0" expanded="true" />
-                <element signature="e#296#297#0" expanded="true" />
-                <element signature="e#336#337#0" expanded="true" />
-                <element signature="e#368#369#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/entities/plant_entities/Flower.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="345">
-              <caret line="23" column="18" selection-start-line="23" selection-start-column="18" selection-end-line="23" selection-end-column="18" />
-              <folding>
-                <element signature="e#132#133#0" expanded="true" />
-                <element signature="e#159#160#0" expanded="true" />
                 <element signature="e#208#209#0" expanded="true" />
-                <element signature="e#243#244#0" expanded="true" />
-                <element signature="e#274#275#0" expanded="true" />
-                <element signature="e#302#303#0" expanded="true" />
-                <element signature="e#343#344#0" expanded="true" />
-                <element signature="e#377#378#0" expanded="true" />
+                <element signature="e#240#241#0" expanded="true" />
+                <element signature="e#469#470#0" expanded="true" />
+                <element signature="e#496#497#0" expanded="true" />
+                <element signature="e#529#530#0" expanded="true" />
+                <element signature="e#558#559#0" expanded="true" />
+                <element signature="e#602#603#0" expanded="true" />
+                <element signature="e#638#639#0" expanded="true" />
+                <element signature="e#670#671#0" expanded="true" />
+                <element signature="e#698#699#0" expanded="true" />
+                <element signature="e#740#741#0" expanded="true" />
+                <element signature="e#774#775#0" expanded="true" />
+                <element signature="e#807#808#0" expanded="true" />
+                <element signature="e#836#837#0" expanded="true" />
+                <element signature="e#880#881#0" expanded="true" />
+                <element signature="e#916#917#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/entities/plant_entities/Tree.java">
+        <entry file="file://$PROJECT_DIR$/src/entities/animal_entities/Herbivore.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="360">
-              <caret line="24" column="18" selection-start-line="24" selection-start-column="18" selection-end-line="24" selection-end-column="18" />
+            <state relative-caret-position="555">
+              <caret line="37" column="42" lean-forward="true" selection-start-line="37" selection-start-column="42" selection-end-line="37" selection-end-column="42" />
               <folding>
-                <element signature="e#135#136#0" expanded="true" />
-                <element signature="e#162#163#0" expanded="true" />
-                <element signature="e#209#210#0" expanded="true" />
-                <element signature="e#244#245#0" expanded="true" />
-                <element signature="e#281#282#0" expanded="true" />
-                <element signature="e#312#313#0" expanded="true" />
-                <element signature="e#362#363#0" expanded="true" />
-                <element signature="e#402#403#0" expanded="true" />
+                <element signature="imports" expanded="true" />
+                <element signature="e#198#199#0" expanded="true" />
+                <element signature="e#225#226#0" expanded="true" />
+                <element signature="e#306#307#0" expanded="true" />
+                <element signature="e#356#357#0" expanded="true" />
+                <element signature="e#396#397#0" expanded="true" />
+                <element signature="e#428#429#0" expanded="true" />
+                <element signature="e#482#483#0" expanded="true" />
+                <element signature="e#524#525#0" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/entities/plant_entities/Scent.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="165">
-              <caret line="11" selection-start-line="11" selection-end-line="11" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/entities/plant_entities/LeafType.java">
+        <entry file="file://$PROJECT_DIR$/src/entities/animal_entities/Omnivore.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="10" column="4" selection-start-line="10" selection-start-column="4" selection-end-line="10" selection-end-column="4" />
+            <state relative-caret-position="194">
+              <caret line="37" column="18" selection-start-line="37" selection-start-column="18" selection-end-line="37" selection-end-column="18" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#246#247#0" expanded="true" />
+                <element signature="e#273#274#0" expanded="true" />
+                <element signature="e#353#354#0" expanded="true" />
+                <element signature="e#403#404#0" expanded="true" />
+                <element signature="e#445#446#0" expanded="true" />
+                <element signature="e#477#478#0" expanded="true" />
+                <element signature="e#531#532#0" expanded="true" />
+                <element signature="e#573#574#0" expanded="true" />
+                <element signature="e#611#612#0" expanded="true" />
+                <element signature="e#645#646#0" expanded="true" />
+                <element signature="e#699#700#0" expanded="true" />
+                <element signature="e#745#746#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -143,8 +89,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="Enum" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -155,13 +101,16 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/src/entities/App.java" />
-        <option value="$PROJECT_DIR$/src/entities/plant_entities/Plant.java" />
         <option value="$PROJECT_DIR$/src/entities/plant_entities/Bush.java" />
         <option value="$PROJECT_DIR$/src/entities/plant_entities/Weed.java" />
         <option value="$PROJECT_DIR$/src/entities/plant_entities/Flower.java" />
         <option value="$PROJECT_DIR$/src/entities/plant_entities/Tree.java" />
         <option value="$PROJECT_DIR$/src/entities/plant_entities/Scent.java" />
         <option value="$PROJECT_DIR$/src/entities/plant_entities/LeafType.java" />
+        <option value="$PROJECT_DIR$/src/entities/plant_entities/Plant.java" />
+        <option value="$PROJECT_DIR$/src/entities/animal_entities/Animal.java" />
+        <option value="$PROJECT_DIR$/src/entities/animal_entities/Herbivore.java" />
+        <option value="$PROJECT_DIR$/src/entities/animal_entities/Omnivore.java" />
       </list>
     </option>
   </component>
@@ -199,7 +148,7 @@
               <item name="TestFundamentals" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="entities" type="462c0819:PsiDirectoryNode" />
-              <item name="plant_entities" type="462c0819:PsiDirectoryNode" />
+              <item name="animal_entities" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -210,7 +159,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1560760910239" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1560762150223" />
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
   <component name="RunDashboard">
@@ -240,20 +189,19 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="877" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info id="Image Layers" />
       <window_info id="Designer" />
       <window_info id="UI Designer" />
       <window_info id="Capture Tool" />
       <window_info id="Favorites" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49936306" visible="true" weight="0.24964234" />
-      <window_info id="Structure" order="1" sideWeight="0.50063694" side_tool="true" visible="true" weight="0.24964234" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49809885" visible="true" weight="0.24964234" />
+      <window_info id="Structure" order="1" sideWeight="0.50190115" side_tool="true" visible="true" weight="0.24964234" />
       <window_info anchor="bottom" id="Version Control" />
       <window_info anchor="bottom" id="Terminal" />
       <window_info anchor="bottom" id="Event Log" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info active="true" anchor="bottom" id="Find" order="1" visible="true" weight="0.3299363" />
       <window_info anchor="bottom" id="Run" order="2" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
@@ -274,43 +222,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="45">
           <caret line="3" selection-start-line="3" selection-end-line="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/entities/plant_entities/Plant.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="5" selection-start-line="4" selection-start-column="5" selection-end-line="4" selection-end-column="5" />
-          <folding>
-            <element signature="e#140#141#0" expanded="true" />
-            <element signature="e#172#173#0" expanded="true" />
-            <element signature="e#313#314#0" expanded="true" />
-            <element signature="e#340#341#0" expanded="true" />
-            <element signature="e#373#374#0" expanded="true" />
-            <element signature="e#402#403#0" expanded="true" />
-            <element signature="e#446#447#0" expanded="true" />
-            <element signature="e#482#483#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/entities/plant_entities/Bush.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="495">
-          <caret line="33" column="18" selection-start-line="33" selection-start-column="18" selection-end-line="33" selection-end-column="18" />
-          <folding>
-            <element signature="e#156#157#0" expanded="true" />
-            <element signature="e#183#184#0" expanded="true" />
-            <element signature="e#265#266#0" expanded="true" />
-            <element signature="e#297#298#0" expanded="true" />
-            <element signature="e#325#326#0" expanded="true" />
-            <element signature="e#367#368#0" expanded="true" />
-            <element signature="e#401#402#0" expanded="true" />
-            <element signature="e#438#439#0" expanded="true" />
-            <element signature="e#469#470#0" expanded="true" />
-            <element signature="e#519#520#0" expanded="true" />
-            <element signature="e#559#560#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -374,8 +285,110 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/entities/plant_entities/LeafType.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="4" selection-start-line="10" selection-start-column="4" selection-end-line="10" selection-end-column="4" />
+        <state relative-caret-position="180">
+          <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/entities/plant_entities/Bush.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="495">
+          <caret line="33" column="18" selection-start-line="33" selection-start-column="18" selection-end-line="33" selection-end-column="18" />
+          <folding>
+            <element signature="e#156#157#0" expanded="true" />
+            <element signature="e#183#184#0" expanded="true" />
+            <element signature="e#265#266#0" expanded="true" />
+            <element signature="e#297#298#0" expanded="true" />
+            <element signature="e#325#326#0" expanded="true" />
+            <element signature="e#367#368#0" expanded="true" />
+            <element signature="e#401#402#0" expanded="true" />
+            <element signature="e#438#439#0" expanded="true" />
+            <element signature="e#469#470#0" expanded="true" />
+            <element signature="e#519#520#0" expanded="true" />
+            <element signature="e#559#560#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/entities/plant_entities/Plant.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="14" selection-start-line="5" selection-start-column="14" selection-end-line="5" selection-end-column="14" />
+          <folding>
+            <element signature="e#140#141#0" expanded="true" />
+            <element signature="e#172#173#0" expanded="true" />
+            <element signature="e#313#314#0" expanded="true" />
+            <element signature="e#340#341#0" expanded="true" />
+            <element signature="e#373#374#0" expanded="true" />
+            <element signature="e#402#403#0" expanded="true" />
+            <element signature="e#446#447#0" expanded="true" />
+            <element signature="e#482#483#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/entities/animal_entities/Animal.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" column="58" selection-start-line="14" selection-start-column="58" selection-end-line="14" selection-end-column="58" />
+          <folding>
+            <element signature="e#208#209#0" expanded="true" />
+            <element signature="e#240#241#0" expanded="true" />
+            <element signature="e#469#470#0" expanded="true" />
+            <element signature="e#496#497#0" expanded="true" />
+            <element signature="e#529#530#0" expanded="true" />
+            <element signature="e#558#559#0" expanded="true" />
+            <element signature="e#602#603#0" expanded="true" />
+            <element signature="e#638#639#0" expanded="true" />
+            <element signature="e#670#671#0" expanded="true" />
+            <element signature="e#698#699#0" expanded="true" />
+            <element signature="e#740#741#0" expanded="true" />
+            <element signature="e#774#775#0" expanded="true" />
+            <element signature="e#807#808#0" expanded="true" />
+            <element signature="e#836#837#0" expanded="true" />
+            <element signature="e#880#881#0" expanded="true" />
+            <element signature="e#916#917#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/entities/animal_entities/Herbivore.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="555">
+          <caret line="37" column="42" lean-forward="true" selection-start-line="37" selection-start-column="42" selection-end-line="37" selection-end-column="42" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#198#199#0" expanded="true" />
+            <element signature="e#225#226#0" expanded="true" />
+            <element signature="e#306#307#0" expanded="true" />
+            <element signature="e#356#357#0" expanded="true" />
+            <element signature="e#396#397#0" expanded="true" />
+            <element signature="e#428#429#0" expanded="true" />
+            <element signature="e#482#483#0" expanded="true" />
+            <element signature="e#524#525#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/entities/animal_entities/Omnivore.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="194">
+          <caret line="37" column="18" selection-start-line="37" selection-start-column="18" selection-end-line="37" selection-end-column="18" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#246#247#0" expanded="true" />
+            <element signature="e#273#274#0" expanded="true" />
+            <element signature="e#353#354#0" expanded="true" />
+            <element signature="e#403#404#0" expanded="true" />
+            <element signature="e#445#446#0" expanded="true" />
+            <element signature="e#477#478#0" expanded="true" />
+            <element signature="e#531#532#0" expanded="true" />
+            <element signature="e#573#574#0" expanded="true" />
+            <element signature="e#611#612#0" expanded="true" />
+            <element signature="e#645#646#0" expanded="true" />
+            <element signature="e#699#700#0" expanded="true" />
+            <element signature="e#745#746#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
