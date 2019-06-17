@@ -50,6 +50,7 @@ public class ForestBookApp {
         Omnivore dog = new Omnivore("Dog", 4, 1, 1);
         Omnivore eagle = new Omnivore("Eagle", 4, 0.5, 10);
 
+        //Adding animals to the list and trying to add two same animals.
         forestNotebook.addAnimal(lion);
         forestNotebook.addAnimal(lion);
         forestNotebook.addAnimal(crocodile);

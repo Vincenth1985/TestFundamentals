@@ -32,6 +32,6 @@ public class Bush extends Plant {
 
     @Override
     public String toString() {
-        return String.format("Bush:Fruit = %s leafType = %-6s name = %-6s height = %smeters%n", fruit, leafType, name, height);
+        return String.format("Bush:Fruit = %-6s leafType = %-6s name = %-6s height = %smeters%n", fruit, leafType, name, height);
     }
 }

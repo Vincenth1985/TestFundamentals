@@ -23,6 +23,6 @@ public class Weed extends Plant {
 
     @Override
     public String toString() {
-        return String.format("Weed :area = %s name = %s height = %s meters%n", area, name, height);
+        return String.format("Weed :area = %-6s name = %-6s height = %smeters%n", area, name, height);
     }
 }

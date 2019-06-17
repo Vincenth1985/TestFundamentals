@@ -22,7 +22,7 @@ public class Carnivore extends Animal {
 
     @Override
     public String toString() {
-        return String.format("Carnivore maxFoodSize = %s name = %s weight = %skg height = %smeters length = %smeters%n"
+        return String.format("Carnivore maxFoodSize = %-6s name = %-6s weight = %skg height = %smeters length = %smeters%n"
                 , maxFoodSize, name, weight, height, length);
     }
 }
