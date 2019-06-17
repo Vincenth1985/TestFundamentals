@@ -83,12 +83,9 @@ public class ForestNotebook {
                 break;
             } else {
                 plants.add(plant);
-
             }
         }
-
     }
-
 
     public void printNotebook() {
 
@@ -113,7 +110,14 @@ public class ForestNotebook {
 
     }
 
-    
+    public void sortAnimalByHeight() {
+        animals.sort(Comparator.comparing(animal -> animal.getHeight()));
 
+    }
+
+    public void sortPlantsByHeight() {
+        plants.sort(Comparator.comparing(plant -> plant.getHeight()));
+
+    }
 
 }
