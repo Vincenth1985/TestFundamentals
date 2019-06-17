@@ -26,7 +26,8 @@ public class ForestBookApp {
         (( Tree ) tree).setLeafType(LeafType.SPEAR);
         forestNotebook.addPlant(flower);
         (( Flower ) flower).setSmell(Scent.MUSKY);
-        forestNotebook.addPlant(flower2);
+        //testing to add two the same plants.
+        forestNotebook.addPlant(flower);
         (( Flower ) flower2).setSmell(Scent.PINEAPPLE);
         forestNotebook.addPlant(weed);
         forestNotebook.addPlant(bush);
