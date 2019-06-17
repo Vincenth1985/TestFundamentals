@@ -24,8 +24,8 @@ public class Herbivore extends Animal {
         this.plantDiet = plantDiet;
     }
 
-    public void addPlantToDiet() {
-
+    public void addPlantToDiet(Plant plant) {
+        plantDiet.add(plant);
     }
 
     public void printDiet() {

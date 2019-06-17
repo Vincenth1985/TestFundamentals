@@ -35,6 +35,7 @@ public class Omnivore extends Animal {
     }
 
     public void addPlantToDiet(Plant plant) {
+        plantDiet.add(plant);
 
     }
 
