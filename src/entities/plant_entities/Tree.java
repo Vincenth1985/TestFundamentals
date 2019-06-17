@@ -23,10 +23,6 @@ public class Tree extends Plant {
 
     @Override
     public String toString() {
-        return "\nTree{" +
-                "leafType=" + leafType +
-                ", name='" + name + '\'' +
-                ", height=" + height +
-                '}';
+        return String.format("Tree :leafType = %s name = %s height = %smeters%n", leafType, name, height);
     }
 }

@@ -1,6 +1,6 @@
 package entities.plant_entities;
 
-public class Bush extends Plant{
+public class Bush extends Plant {
 
     private String fruit;
     private LeafType leafType;
@@ -32,11 +32,6 @@ public class Bush extends Plant{
 
     @Override
     public String toString() {
-        return "\nBush{" +
-                "fruit='" + fruit + '\'' +
-                ", leafType=" + leafType +
-                ", name='" + name + '\'' +
-                ", height=" + height +
-                '}';
+        return String.format("Bush:Fruit = %s leafType = %-6s name = %-6s height = %smeters%n", fruit, leafType, name, height);
     }
 }

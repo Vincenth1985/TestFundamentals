@@ -21,12 +21,16 @@ public class ForestBookApp {
         Plant weed = new Weed("Cannabis", 0.06);
         Plant bush = new Bush("Shrubs", 2);
 
-        //Adding plant to a list.
+        //Adding plant to a list and set values from Enums.
         forestNotebook.addPlant(tree);
+        (( Tree ) tree).setLeafType(LeafType.SPEAR);
         forestNotebook.addPlant(flower);
+        (( Flower ) flower).setSmell(Scent.MUSKY);
         forestNotebook.addPlant(flower2);
+        (( Flower ) flower2).setSmell(Scent.PINEAPPLE);
         forestNotebook.addPlant(weed);
         forestNotebook.addPlant(bush);
+        (( Bush ) bush).setLeafType(LeafType.ROUND);
 
         //Making animals from different type.
         Carnivore lion = new Carnivore("Lion", 190, 1.2, 2);
@@ -36,6 +40,7 @@ public class ForestBookApp {
         Herbivore cow = new Herbivore("Cow", 1100, 1.80, 2.5);
         Herbivore horse = new Herbivore("Horse", 600, 1.6, 2.4);
         Herbivore rhinoceros = new Herbivore("Rhinoceros", 2000, 2, 3);
+
         //Adding plant to a list
         cow.addPlantToDiet(bush);
         horse.addPlantToDiet(bush);
@@ -55,8 +60,10 @@ public class ForestBookApp {
         forestNotebook.addAnimal(dog);
         forestNotebook.addAnimal(eagle);
 
+        System.out.println("\nFundamentals Test");
+        System.out.println("*".repeat(20));
 
-        System.out.println("Count van Animals en Plants");
+        System.out.println("\nCount van Animals en Plants");
         System.out.println("-".repeat(40));
         System.out.println(forestNotebook.getAnimalCount());
         System.out.println(forestNotebook.getPlantCount());
