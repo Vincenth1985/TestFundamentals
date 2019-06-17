@@ -35,7 +35,7 @@ public class Herbivore extends Animal {
 
     @Override
     public String toString() {
-        return String.format("Herbivore :plantDiet = %-6s name = %-6s weight = %skg height = %smeters length = %smeters%n"
+        return String.format("Herbivore :plantDiet = %10s name = %s weight = %skg height = %smeters length = %smeters%n"
                 , plantDiet, name, weight, height, length);
     }
 }

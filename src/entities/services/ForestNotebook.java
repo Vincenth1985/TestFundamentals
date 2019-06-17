@@ -63,25 +63,23 @@ public class ForestNotebook {
         animals.add(animal);
         this.animals = animals.stream().distinct().collect(Collectors.toList());
 
-        for (Animal animal1 : animals) {
-            if (animal instanceof Carnivore) {
-                carnivores.add(( Carnivore ) animal);
-                break;
-            } else if (animal instanceof Herbivore) {
-                herbivores.add(( Herbivore ) animal);
-                break;
-            } else if (animal instanceof Omnivore) {
-                omnivores.add(( Omnivore ) animal);
-                break;
-            }
+
+        if (animal instanceof Carnivore) {
+            carnivores.add(( Carnivore ) animal);
+            this.carnivores = carnivores.stream().distinct().collect(Collectors.toList());
+        } else if (animal instanceof Herbivore) {
+            herbivores.add(( Herbivore ) animal);
+            this.herbivores = herbivores.stream().distinct().collect(Collectors.toList());
+
+        } else if (animal instanceof Omnivore) {
+            omnivores.add(( Omnivore ) animal);
+            this.omnivores = omnivores.stream().distinct().collect(Collectors.toList());
+
         }
-
-
     }
 
 
     public void addPlant(Plant plant) {
-        plants.add(plant);
         plants.add(plant);
         this.plants = plants.stream().distinct().collect(Collectors.toList());
     }
@@ -89,11 +87,16 @@ public class ForestNotebook {
     public void printNotebook() {
         System.out.println("Printing Animals");
         System.out.println("*".repeat(20));
-        Stream.of(animals).forEach(System.out::println);
+        for (Animal animal : animals) {
+            System.out.println(animal);
+        }
         System.out.println();
         System.out.println("Printing Plants");
         System.out.println("*".repeat(20));
-        Stream.of(plants).forEach(System.out::println);
+        for (Plant plant : plants) {
+            System.out.println(plant);
+
+        }
 
     }
 

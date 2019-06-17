@@ -22,6 +22,6 @@ public class Flower extends Plant {
 
     @Override
     public String toString() {
-        return String.format("Flower :smell = %-6s name = %-6s height = %smeters%n", smell, name, height);
+        return String.format("Flower\t:Smell = %-22s  name = %-15s height = %smeters", smell, name, height);
     }
 }

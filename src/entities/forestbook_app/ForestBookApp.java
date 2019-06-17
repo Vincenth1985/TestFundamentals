@@ -76,11 +76,15 @@ public class ForestBookApp {
 
         System.out.println("\nList of Animals");
         System.out.println("-".repeat(40));
-        Stream.of(forestNotebook.getCarnivores()).forEach(System.out::println);
-        Stream.of(forestNotebook.getHerbivores()).forEach(System.out::println);
-        Stream.of(forestNotebook.getOmnivores()).forEach(System.out::println);
-
-
+        for (Carnivore car : forestNotebook.getCarnivores()) {
+            System.out.println(car);
+        }
+        for (Herbivore herb : forestNotebook.getHerbivores()) {
+            System.out.println(herb);
+        }
+        for (Omnivore omn : forestNotebook.getOmnivores()) {
+            System.out.println(omn);
+        }
         //Sorting by name.
         forestNotebook.sortAnimalsByName();
         forestNotebook.sortPlantsByName();
